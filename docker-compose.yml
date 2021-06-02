@@ -1,0 +1,8 @@
+version: "3"
+services:
+    jupyter-lab:
+        image: the-modeep
+        ports:
+            - 9999:9999
+        volumes:
+            - ./:/The_MoDeep
